@@ -25,4 +25,13 @@ public class Cargo extends AbstractEntity<Long> {
 		this.nome = nome;
 	}
 
+	public Departamento getDepartamento() {
+		return departamento;
+	}
+
+	public void setDepartamento(Departamento departamento) {
+		this.departamento = departamento;
+	}
+
+	
 }
